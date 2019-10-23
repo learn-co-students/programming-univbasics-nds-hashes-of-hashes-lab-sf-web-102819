@@ -41,7 +41,7 @@ def naming_system
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-Name = {
+{
   label: "Kingdom",
   sub_category: {
       label: "Phylum",
@@ -55,7 +55,7 @@ Name = {
                       label: "Genus",
                       sub_category: {
                         label: "Species",
-                            sub_category: {}
+                            sub_category: nil
                       }
                   }
               }
@@ -64,5 +64,4 @@ Name = {
  }
 
 }
-return Name
 end
